@@ -1,3 +1,9 @@
+Only source code was placed into this repository and has to be run in an environment with terraform installed 
+
+
+run:
+terraform init 
+
 Steps to run the terraform code:
 1: terraform apply --auto-approve
 
