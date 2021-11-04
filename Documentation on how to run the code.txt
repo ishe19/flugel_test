@@ -1,0 +1,7 @@
+Steps to run the terraform code:
+1: terraform apply --auto-approve
+
+2: in the terminal: 
+	cd tests
+	go test -v
+
