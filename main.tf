@@ -1,24 +1,19 @@
-# provider "aws" {
-#   profile    = "${var.profile}"
-#   region     = "${var.region}"
-
-# }
-
 provider "aws" {
-  region = "us-east-1"
-  access_key = "AKIASZ5W65MDRRBJ2P2M"
-  secret_key = "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"
-  
+  profile    = "${var.profile}"
+  region     = "${var.region}"
+
 }
 
 
-# variable "region" {
-#         default = "us-west-2"
-# }
 
-# variable "profile" {
-#     description = "default"
-# }
+
+variable "region" {
+        default = "us-west-2"
+}
+
+variable "profile" {
+    description = "default"
+}
 
 # variable "instance_type" {
 #   type = string
